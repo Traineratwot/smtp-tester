@@ -114,7 +114,7 @@
 		}
 	?>
 </div>
-<form method="post" action="/" style="width: 50vw">
+<form method="post" action="<?=$_SERVER['REQUEST_URI']?>" style="width: 50vw">
 	<p>
 		<label class="form-label">
 			TO_EMAIL
